@@ -1,0 +1,4 @@
+# This file defines all application routes
+
+GET     /users                         controllers.ApplicationController.retrieveAllUsers
+GET     /users/:username                controllers.ApplicationController.retrieveSingleUser(username:String)
